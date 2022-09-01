@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+header {
+    line-height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 80px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    width: 56px;
+    margin-top: 5px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3) ;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+nav a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s ;
+}
+
+header nav a:hover {
+    color: #E31302;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    z-index: -2;
+}
+
+#historia {
+    width: 100%;
+    text-align: center;
+    padding-top: 750px;
+}
+
+#historia p {
+    width: 1000px;
+    margin: 25px 450px;
+    font-size: 26px;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h1:hover {
+    -webkit-text-stroke: 2px black;
+    color:  #E31302;
+}
